@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background: rgb(255, 255, 220);
+  color: white;
+}
+
+#slogan {
+  font-style: italic;
+}
+
+hr {
+  width: 300px;
+}
+
+#master {
+  align: center;
+  width: 100%;
+  height: 400px;
+  background: url("https://static.wixstatic.com/media/c9a521_d9ebcad84e56471a853f6015d2e6e2f9.png/v1/fill/w_973,h_688,al_c,usm_0.66_1.00_0.01/c9a521_d9ebcad84e56471a853f6015d2e6e2f9.png");
+  background-size: cover;
+}
+
+#child {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#name {
+  padding-top: 200px;
+  font-family: Helvetica, san-serif;
+  font-size: 48px;
+  color: white;
+}
+
+#slogan {
+  font-family: Rockwell, serif;
+  color: white;
+}
+
+#summary {
+  color: black;
+  font-family: helvetica, serif;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
+  background: url("https://static.wixstatic.com/media/c9a521_3328c022a2584d35b9ac66eab1f68965.gif");
+  background-size: cover;
+}
+
+#bottom {
+  width: 100%;
+  height: 200px;
+  background: rgb(60, 60, 60);
+  padding-top: 40px;
+  font-family: Helvetica, san-serif;
+  color: white;
+}
+
+#aboutme {
+  font-size: 20px;
+}
+
+.blurb {
+  font-family: Arial;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+}
