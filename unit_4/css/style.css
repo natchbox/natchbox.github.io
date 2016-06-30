@@ -1,0 +1,90 @@
+
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(https://fonts.googleapis.com/css?family=Kadwa);
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background-color: #fff;
+  font-size: 16px; /*1em = 16px*/
+  text-align: center;
+  position: relative;
+  color:#fff;
+  font-family: 'Kadwa', serif;
+}
+header{
+}
+h1{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:60px;
+  margin:150px 0 0;
+  letter-spacing: 3px;
+}
+hr{
+  border:none;
+  height:3px;
+  background-color: #fff;
+  width:60em;
+  margin:2em auto;
+}
+#lander h2{
+  margin:1em;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+#lander {
+  background: url("https://static.wixstatic.com/media/c9a521_d9ebcad84e56471a853f6015d2e6e2f9.png/v1/fill/w_543,h_384,al_c,usm_0.66_1.00_0.01/c9a521_d9ebcad84e56471a853f6015d2e6e2f9.png") no-repeat center center scroll;
+  background-size: cover;
+  height:500px;
+  padding:20px 0;
+}
+nav {
+  margin:6em auto;
+}
+.navlinks{
+  font-family: sans-serif;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding:4em;
+  border:none;
+}
+h3{
+  width: 30em;
+  font-size: 1em;
+  color:#201828;
+  margin: 3em auto;
+}
+.box {
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
+  background: url("https://static.wixstatic.com/media/c9a521_3328c022a2584d35b9ac66eab1f68965.gif");
+  background-size: cover;
+}
+section h2{
+  padding: 1em;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: 2px;
+}
+section{
+  margin: 3em auto;
+  background-color: #201828;
+}
+a{
+  font-family: sans-serif;
+  color:#fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border:none;
+}
+p{
+  width: 40em;
+  padding: 1em;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
