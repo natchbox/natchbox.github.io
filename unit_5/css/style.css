@@ -1,0 +1,98 @@
+
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(https://fonts.googleapis.com/css?family=Kadwa);
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background-color: #fff;
+  font-size: 16px; /*1em = 16px*/
+  text-align: center;
+  position: relative;
+  color:#fff;
+  font-family: 'Kadwa', serif;
+}
+header{
+  background-color: grey;
+  border: 1px black solid;
+}
+main {
+  background-color: purple;
+  border: 1px black solid;
+}
+h1{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:60px;
+  margin:150px 0 0;
+  letter-spacing: 3px;
+}
+hr{
+  border:none;
+  height:3px;
+  background-color: #fff;
+  width:60em;
+  margin:2em auto;
+}
+#lander h2{
+  margin:1em;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+#lander {
+  background-color: red;
+  background-size: cover;
+  height:500px;
+  border: 1px black solid;
+}
+nav {
+  background-color: blue;
+  margin:6em auto;
+  border: 1px black solid;
+}
+.navlinks{
+  font-family: sans-serif;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding:4em;
+  border:none;
+}
+h3{
+  width: 30em;
+  font-size: 1em;
+  color:#201828;
+  margin: 3em auto;
+}
+.box {
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
+  background-size: cover;
+}
+footer h2{
+  padding: 1em;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: 2px;
+}
+footer{
+  background-color: brown;
+  margin: 3em auto;
+  border: 1px black solid;
+}
+a{
+  font-family: sans-serif;
+  color:#fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border:none;
+}
+p{
+  width: 40em;
+  padding: 1em;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
