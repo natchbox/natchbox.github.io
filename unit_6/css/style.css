@@ -1,0 +1,192 @@
+
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(https://fonts.googleapis.com/css?family=Kadwa);
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+body {
+  background-color: #feeff4;
+  font-size: 16px; /*1em = 16px*/
+  text-align: center;
+  position: relative;
+  color:#fff;
+  font-family: 'Kadwa', serif;
+}
+#left {
+  float: left;
+  width: 15%;
+}
+#right {
+  float: right;
+  width: 15%;
+}
+header {
+  float: left;
+  width: 70%;
+}
+h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:60px;
+  margin:150px 0 0;
+  letter-spacing: 3px;
+}
+hr {
+  border:none;
+  height:3px;
+  background-color: #fff;
+  width:60em;
+  margin:2em auto;
+}
+#lander h2 {
+  margin:1em 0 4em 0;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+#lander {
+  background: url("../images/space.png") no-repeat center center scroll;
+  background-size: cover;
+  height:500px;
+  padding:20px 0;
+}
+nav {
+  margin:6em auto;
+}
+.navlinks {
+  font-family: sans-serif;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding:4em;
+  border:none;
+}
+.colorbands {
+  width: auto;
+}
+#red1 {
+  height: 2em;
+  background-color: #961d4f;
+}
+#red2 {
+  height: 1em;
+  background-color: #dc304d;
+}
+#red3 {
+  height: .5em;
+  background-color: #f5364c;
+}
+main {
+  padding: 6em 0;
+}
+h3 {
+  width: 30em;
+  font-size: 1em;
+  color:#201828;
+  margin: 3em auto;
+}
+.projectlinksmaster {
+  margin: 0 auto;
+}
+.projectlinks {
+  font-family: 'Allerta Stencil' sans-serif;
+  color:#000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding:3em;
+  border:none;
+}
+.box {
+  width: 15em;
+  height: 15em;
+  display: inline-block;
+  margin: 20px;
+  background: url("https://static.wixstatic.com/media/c9a521_3328c022a2584d35b9ac66eab1f68965.gif");
+  background-size: cover;
+  border-radius:50%
+}
+.box:hover {
+  width: 20em;
+  height: 20em;
+}
+#box1 {
+  background: url("../images/CabinKid.png");
+  background-size: cover;
+  }
+#box2 {
+  background: url("../images/corphish.png");
+  background-size: cover;
+  }
+#box3 {
+  background: url("../images/dogdoyou.png");
+  background-size: cover;
+}
+#box4 {
+  background: url("../images/dustygame.png");
+  background-size: cover;
+}
+#box5 {
+  background: url("../images/nidoking.gif");
+}
+#box6 {
+  background: url("../images/pvz.png");
+  background-size: cover;
+}
+#box7 {
+  background: url("../images/selfportait.png");
+  background-size: cover;
+}
+#box8 {
+  background: url("../images/nidoking.gif");
+  background-size: cover;
+}
+#box9 {
+  background: url("../images/pvz.png");
+  background-position: right;
+}
+#blue1 {
+  height: 2em;
+  background-color: #03abfa;
+}
+#blue2 {
+  height: 1em;
+  background-color: #24cefc;
+}
+#blue3 {
+  height: .5em;
+  background-color: #52feff;
+}
+footer h2 {
+  padding: 1em;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: 2px;
+}
+footer {
+  margin: 0 auto 0 auto;
+  padding: 0 0 10em 0;
+  background: url("../images/footer.png") no-repeat center center scroll;
+  background-size: cover;
+}
+a {
+  font-family: sans-serif;
+  color:#fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border:none;
+}
+p {
+  width: 40em;
+  padding: 1em;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
