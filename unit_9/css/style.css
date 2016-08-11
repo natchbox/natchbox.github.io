@@ -1,0 +1,307 @@
+
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(https://fonts.googleapis.com/css?family=Kadwa);
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body {
+  background-color: #feeff4;
+  font-size: 16px; /*1em = 16px*/
+  text-align: center;
+  position: relative;
+  color:#fff;
+  font-family: 'Kadwa', serif;
+}
+#left {
+  margin: 5em 0 0 4em;
+  float: left;
+  width: 25%;
+  padding: 2em;
+}
+#right {
+  margin: 2em 5em 0 0;
+  float: right;
+  width: 35%;
+}
+header {
+  float: left;
+  width: 100%;
+}
+h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 5em;
+  margin: 0 0 0;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  position: relative;
+}
+hr {
+  border: none;
+  height: .1em;
+  background-color: #fff;
+  width: 60em;
+  margin: 2em auto;
+}
+#lander h2 {
+  margin:1em 0 2em 0;
+  font-style: italic;
+  letter-spacing: .1em;
+}
+#lander {
+  background: url("../images/space.png") no-repeat center center scroll;
+  background-size: cover;
+  width:100%;
+  margin:auto;
+}
+nav{
+  width: 75%;
+  margin:auto;
+  text-align: center;
+}
+.navlinks {
+  font-family: sans-serif;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .3em;
+  border:none;
+  width:21%;
+  padding:2%;
+  margin:2%;
+  float:left;
+  text-decoration: none;
+
+}
+.colorbands {
+  width: auto;
+}
+#red1 {
+  height: 2em;
+  background-color: #961d4f;
+}
+#red2 {
+  height: 1em;
+  background-color: #dc304d;
+}
+#red3 {
+  height: .5em;
+  background-color: #f5364c;
+}
+main {
+  padding: 1em 0;
+}
+h3 {
+  width: 30em;
+  font-size: 1em;
+  color:#201828;
+  margin: 3em auto;
+}
+#project-wrap{
+  width:75%;
+  margin: 0 auto;
+}
+.projects{
+  width:31.33%;
+  padding:1%;
+  margin:1%;
+  float:left;
+}
+.projectlinks {
+  font-family: 'Allerta Stencil' sans-serif;
+  color:#000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  border:none;
+  float:left;
+  width: 100%;
+  text-decoration: none;
+}
+.box {
+  width: 15em;
+  height: 15em;
+  display: inline-block;
+  margin: 1.5em;
+  background: url("https://static.wixstatic.com/media/c9a521_3328c022a2584d35b9ac66eab1f68965.gif");
+  background-size: cover;
+  border-radius:50%
+}
+.box:hover {
+  width: 17em;
+  height: 17em;
+  margin: .5em;
+}
+#box1 {
+  background: url("../images/CabinKid.png");
+  background-size: cover;
+  }
+#box2 {
+  background: url("../images/corphish.png");
+  background-size: cover;
+  }
+#box3 {
+  background: url("../images/dogdoyou.png");
+  background-size: cover;
+}
+#box4 {
+  background: url("../images/dustygame.png");
+  background-size: cover;
+}
+#box5 {
+  background: url("../images/nidoking.gif");
+}
+#box6 {
+  background: url("../images/pvz.png");
+  background-size: cover;
+}
+#box7 {
+  background: url("../images/selfportait.png");
+  background-size: cover;
+}
+#box8 {
+  background: url("../images/nidoking.gif");
+  background-size: cover;
+}
+#box9 {
+  background: url("../images/pvz.png");
+  background-position: right;
+}
+#blue1 {
+  height: 2em;
+  background-color: #03abfa;
+}
+#blue2 {
+  height: 1em;
+  background-color: #24cefc;
+}
+#blue3 {
+  height: .5em;
+  background-color: #52feff;
+}
+footer h2 {
+  padding: 1em;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: .1em;
+}
+footer {
+  margin: 0 auto 0 auto;
+  padding: 0 0 10em 0;
+  background: url("../images/footer.png") no-repeat center center scroll;
+  background-size: cover;
+}
+a {
+  font-family: sans-serif;
+  color:#fff;
+  font-weight: 500;
+  letter-spacing: .05em;
+  border:none;
+}
+p {
+  width: 50%;
+  padding: 1em;
+  margin: 0 auto;
+  letter-spacing: .1em;
+}
+
+@media screen and (max-width:1000px){
+
+#left {
+  margin: 2em 0 0 3em;
+  float: left;
+  width: 35%;
+  padding: 2em;
+}
+
+#right {
+  margin: 2em 4em 0 0;
+  float: right;
+  width: 45%;
+}
+
+  nav{
+  width: 100%;
+}
+
+.navlinks {
+    width: 23%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.projects {
+    width:48%;
+    padding:1%;
+    margin:1%;
+    float:left;
+}
+
+  #project-wrap {
+  width:100%;
+  margin:auto;
+}
+
+@media screen and (max-width:750px) {
+
+#left {
+  margin: 2em 0 0 .5em;
+  float: left;
+  width: 35%;
+  padding: 1em;
+}
+
+#right {
+  margin: 2em 1em 0 0;
+  float: right;
+  width: 45%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: .5em 0 0;
+}
+hr {
+  width: 10em;
+  margin: 1em auto;
+}
+#lander h2 {
+  font-size: 1em;
+  margin:0 auto;
+}
+
+.navlinks {
+    font-size: 1em;
+    display:block;
+    width: 100%;
+}
+
+.box {
+    width: 10em;
+    height: 10em;
+}
+
+.box:hover {
+  width: 12em;
+  height: 12em;
+  margin: .5em;
+}
+
+body {
+  font-size: 14px; /*1em = 14px*/
+}
+
+p {
+  width: 100%;
+  }
+}
